@@ -1,0 +1,14 @@
+meme_dict = {
+            "CRINGE": "Garip ya da utandırıcı bir şey",
+            "LOL": "Komik bir şeye verilen cevap",
+            "GG" : "İyi oyundu",
+            "GLHF": "İyi şanslar iyi eğlenceler",
+            "AFK"  : "Klavye başında değilim",
+            "WDYM" : "Ne demek istedin"
+            }
+word = input("Anlamadığınız bir kelime yazın: ").upper()
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("Bu kelimenin karşılığı bulunamadı.")
+
