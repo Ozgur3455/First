@@ -10,5 +10,5 @@ word = input("Anlamadığınız bir kelime yazın: ").upper()
 if word in meme_dict.keys():
     print(meme_dict[word])
 else:
-    print("Bu kelimenin karşılığı bulunamadı.")
+    print("Bu kelimenin karşılığı bulunamadı.Yeni kelime giriniz.")
 
